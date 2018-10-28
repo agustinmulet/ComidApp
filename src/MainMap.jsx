@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from "react";
+import React, { Component } from "react";
 import MyMapComponent from "./MyMapComponent";
 import Grid from "@material-ui/core/Grid";
 import CardComponent from "./CardComponent";
@@ -25,19 +25,27 @@ class MainMap extends Component {
     const data = [
       {
         name: "Burger King Caballito",
-        image: burgerportada
+        image: burgerportada,
+        numero: 500,
+        comida: "Hamburguesas"
       },
       {
-        name: "Mac Donalds",
-        image: mcdonalds
+        name: "Mc Donalds",
+        image: mcdonalds,
+        numero: 300,
+        comida: "Hamburguesas"
       },
       {
         name: "KFC",
-        image: kfc
+        image: kfc,
+        numero: 700,
+        comida: "Pollo Frito"
       },
       {
         name: "Burger King Centro",
-        image: burgerportada
+        image: burgerportada,
+        numero: 400,
+        comida: "Hamburguesas"
       }
     ];
 
@@ -46,7 +54,7 @@ class MainMap extends Component {
         <Grid
           item
           xs={6}
-          style={{ height: "calc(100vh - 69px)", overflowY: "scroll" }}
+          style={{ height: "calc(100vh - 69px)", overflowY: "auto" }}
         >
           <div
             style={{
@@ -61,6 +69,8 @@ class MainMap extends Component {
                   name={data.name}
                   image={data.image}
                   key={data.name}
+                  numero={data.numero}
+                  comidas={data.comida}
                 />
               );
             })}
