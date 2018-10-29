@@ -1,6 +1,14 @@
-# Minimal React Boilerplate
+# ComidApp
 
-This is yet another React Boilerplate built with Webpack. It provides support for Hot Module Replacement, .scss files and the Class properties proposal.
+Repo of the app made during the Belatrix Hackaton on 27 Oct., 2018.
+
+Team: Equipo 5
+
+Members:
+
+- [Johnnie Gomez](https://dribbble.com/cruzbarcelona)
+- [Alejandro Di Leo](https://github.com/aledileo17)
+- [Agustin Mulet](https://github.com/agustinmulet)
 
 ## Specs
 
@@ -15,7 +23,7 @@ This is yet another React Boilerplate built with Webpack. It provides support fo
 ## Installation
 
 ```sh
-git clone https://github.com/aledileo17/minimal-react-boilerplate
-cd minimal-react-boilerplate
+git clone https://github.com/agustinmulet/ComidApp.git
+cd ComidApp
 npm i && npm start
 ```
